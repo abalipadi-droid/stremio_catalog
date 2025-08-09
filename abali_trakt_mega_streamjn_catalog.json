@@ -1,0 +1,70 @@
+{
+  "id": "trakt-mega-streaming-catalog",
+  "version": "1.0.0",
+  "name": "Trakt Mega Streaming Catalog",
+  "description": "Popular streaming service Trakt lists bundled into one Stremio catalog",
+  "resources": ["catalog"],
+  "types": ["movie", "series"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "netflix-movies",
+      "name": "Netflix Movies",
+      "extra": [{"name": "search", "isRequired": false}]
+    },
+    {
+      "type": "series",
+      "id": "netflix-tv-shows",
+      "name": "Netflix TV Shows",
+      "extra": [{"name": "search", "isRequired": false}]
+    },
+    {
+      "type": "movie",
+      "id": "disney-plus-movies",
+      "name": "Disney+ Movies",
+      "extra": [{"name": "search", "isRequired": false}]
+    },
+    {
+      "type": "series",
+      "id": "disney-plus-tv-shows",
+      "name": "Disney+ TV Shows",
+      "extra": [{"name": "search", "isRequired": false}]
+    },
+    {
+      "type": "movie",
+      "id": "prime-video-movies",
+      "name": "Prime Video Movies",
+      "extra": [{"name": "search", "isRequired": false}]
+    },
+    {
+      "type": "series",
+      "id": "prime-video-tv-shows",
+      "name": "Prime Video TV Shows",
+      "extra": [{"name": "search", "isRequired": false}]
+    },
+    {
+      "type": "movie",
+      "id": "hbo-max-movies",
+      "name": "HBO Max Movies",
+      "extra": [{"name": "search", "isRequired": false}]
+    },
+    {
+      "type": "series",
+      "id": "hbo-max-tv-shows",
+      "name": "HBO Max TV Shows",
+      "extra": [{"name": "search", "isRequired": false}]
+    },
+    {
+      "type": "movie",
+      "id": "hulu-movies",
+      "name": "Hulu Movies",
+      "extra": [{"name": "search", "isRequired": false}]
+    },
+    {
+      "type": "series",
+      "id": "hulu-tv-shows",
+      "name": "Hulu TV Shows",
+      "extra": [{"name": "search", "isRequired": false}]
+    }
+  ]
+}
